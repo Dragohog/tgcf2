@@ -1,10 +1,10 @@
 """Declare all global constants."""
 
 COMMANDS = {
-    "start": "Check whether I am alive",
-    "forward": "Set a new forward",
-    "remove": "Remove an existing forward",
-    "help": "Learn usage",
+    "start": "Проверьте, жив ли я",
+    "forward": "Добавить новый источник",
+    "remove": "Удалить существующий источник",
+    "help": "Помощь",
 }
 
 REGISTER_COMMANDS = True
@@ -19,5 +19,5 @@ class BotMessages:
     """Messages given by the bot to users."""
 
     # pylint: disable=too-few-public-methods
-    start = "Hi! I am alive"
-    bot_help = "For details visit github.com/aahnik/tgcf"
+    start = "Привет! Я жив"
+    bot_help = "В процессе.."
